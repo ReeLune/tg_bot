@@ -1,0 +1,21 @@
+{
+  "name": "tg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "countdown": "^2.6.0",
+    "easytimer.js": "^4.5.4",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}

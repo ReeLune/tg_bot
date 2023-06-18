@@ -6,7 +6,7 @@ const TOKEN = process.env.TELEGRAM_TOKEN || '6217363266:AAEFZxZBre8i4y_iHsVcKqJw
 const bot = new TelegramBot(TOKEN, { polling: true });
 const webAppUrl = "https://fort-tg-web-app.vercel.app";
 const stickerUrl =
-  'https://tlgrm.eu/_/stickers/711/2ce/7112ce51-3cc1-42ca-8de7-62e7525dc332/3.webp';
+  "https://tlgrm.eu/_/stickers/1ea/27a/1ea27a89-9e40-3c90-a0c6-bc3b58b65662/192/9.webp";
 
 const buttons = {
   reply_markup: {
